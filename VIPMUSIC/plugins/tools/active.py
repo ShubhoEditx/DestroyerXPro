@@ -52,16 +52,16 @@ async def activevc(_, message: Message):
                 text += (
                     f"<b>{j + 1}.</b> {unidecode(title).upper()} [<code>{x}</code>]\n"
                 )
-            button_text = f"๏ ᴊᴏɪɴ {ordinal(j + 1)} ɢʀᴏᴜᴘ ๏"
+            button_text = f"๏ 𝐉ᴏɪɴ♡ {ordinal(j + 1)} 𝐆ʀᴏᴜᴘ ♡"
             buttons.append([InlineKeyboardButton(button_text, url=invite_link)])
             j += 1
         except:
             continue
     if not text:
-        await mystic.edit_text(f"» ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ᴏɴ {app.mention}.")
+        await mystic.edit_text(f"» 𝐍ᴏ 𝐀ᴄᴛɪᴠᴇ 𝐕ᴏɪᴄᴇ 𝐂ʜᴀᴛs 𝐎ɴ {app.mention}.")
     else:
         await mystic.edit_text(
-            f"<b>» ʟɪsᴛ ᴏғ ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs :</b>\n\n{text}",
+            f"<b>» 𝐋ɪsᴛ 𝐎ғ 𝐂ᴜʀʀᴇɴᴛʟʏ 𝐀ᴄᴛɪᴠᴇ 𝐕ᴏɪᴄᴇ 𝐂ʜᴀᴛs :</b>\n\n{text}",
             reply_markup=InlineKeyboardMarkup(buttons),
             disable_web_page_preview=True,
         )
