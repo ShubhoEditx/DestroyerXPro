@@ -75,8 +75,8 @@ async def ping_com(client, message: Message, _):
         user_command_count[user_id] = 1
         user_last_message_time[user_id] = current_time
 
-    PING_IMG_URL = "https://telegra.ph/file/37b57c6aaaa793bba055a.jpg"
-    captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
+    PING_IMG_URL = "https://telegra.ph/file/70b813f9f8dd0f16db993.jpg"
+    captionss = "**🥀𝐏ɪɴɢɪɴɢ 𝐎ᴜʀ 𝐒ᴇʀᴠᴇʀ 𝐖ᴀɪᴛ.**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
     await asyncio.sleep(1)
     await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ...**")
@@ -98,7 +98,7 @@ async def ping_com(client, message: Message, _):
     resp = (datetime.now() - start).microseconds / 1000
     text = _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
     carbon = await make_carbon(text)
-    captions = "**ㅤ  🏓 ᴘɪɴɢ...ᴘᴏɴɢ...ᴘɪɴɢ✨\nㅤ  🎸 ᴅɪɴɢ...ᴅᴏɴɢ...ᴅɪɴɢ💞**"
+    captions = "**ㅤ  🏓 𝐏ɪɴɢ...𝐏ᴏɴɢ...𝐏ɪɴɢ✨\nㅤ  🎸 𝐃ɪɴɢ...𝐃ᴏɴɢ...𝐃ɪɴɢ💞**"
     await message.reply_photo(
         (carbon),
         caption=captions,
@@ -112,17 +112,17 @@ async def ping_com(client, message: Message, _):
                 ],
                 [
                     InlineKeyboardButton(
-                        text="✦ ɢʀᴏᴜᴘ ✦",
-                        url=f"https://t.me/Dns_Official_Channel",
+                        text="𝐆𝐫𝐨𝐮𝐩 ♡",
+                        url=f"https://t.me/Destroyer_Community",
                     ),
                     InlineKeyboardButton(
-                        text="✧ ᴍᴏʀᴇ ✧",
-                        url=f"https://t.me/Dns_Official_Channel",
+                        text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ♡",
+                        url=f"https://t.me/about_shubho",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="❅ ʜᴇʟᴘ ❅", url=f"https://t.me/{app.username}?start=help"
+                        text="𝐇𝐞𝐥𝐩 ♡", url=f"https://t.me/{app.username}?start=help"
                     )
                 ],
             ]
@@ -130,7 +130,7 @@ async def ping_com(client, message: Message, _):
     )
     await response.delete()
 
-    close_button = InlineKeyboardButton("๏ ᴄʟᴏsᴇ ๏", callback_data="close_data")
+    close_button = InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 ♡", callback_data="close_data")
     inline_keyboard = InlineKeyboardMarkup([[close_button]])
 
 
