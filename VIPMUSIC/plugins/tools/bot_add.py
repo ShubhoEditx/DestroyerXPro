@@ -17,11 +17,11 @@ from VIPMUSIC.utils.database import get_assistant
 
 
 photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/57d5705756c589e14a1a3.jpg",
+    "https://telegra.ph/file/ea3c012fdde82812a5a73.jpg",
+    "https://telegra.ph/file/f86bac9f1576697c69669.jpg",
+    "https://telegra.ph/file/a13a059b486d096cbc7ba.jpg",
+    "https://telegra.ph/file/95281ac786e89c37d3edd.jpg",
 ]
 
 from strings.__init__ import LOGGERS
