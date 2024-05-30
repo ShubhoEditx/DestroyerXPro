@@ -17,6 +17,16 @@ def track_markup(_, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
+                text="🕊️𝐒ʜᴜʙʜᴏ❤️",
+                url=f"https://t.me/about_shubho",
+            ),
+            InlineKeyboardButton(
+                text="❤️𝐒ᴏʜɪɴɪ🕊️",
+                url=f"https://t.me/About_Sohini",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
                 text=_["P_B_1"],
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
             ),
