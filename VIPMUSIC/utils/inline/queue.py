@@ -80,8 +80,8 @@ def aq_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/Dns_Official_Channel",
+                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ♡",
+                url="https://t.me/about_shubho",
             ),
         ],
     ]
@@ -115,8 +115,8 @@ def queuemarkup(_, vidid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/Dns_Official_Channel",
+                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ♡",
+                url="https://t.me/about_shubho",
             ),
         ],
     ]
