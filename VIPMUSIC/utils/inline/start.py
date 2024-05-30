@@ -37,11 +37,11 @@ def private_panel(_):
         [
             InlineKeyboardButton(
                 text="🕊️𝐒ʜᴜʙʜᴏ❤️",
-                url=f"https://t.me/about_shubho",
+                url=f"https://t.me/hello_deear",
             ),
             InlineKeyboardButton(
                 text="❤️𝐒ᴏʜɪɴɪ🕊️",
-                url=f"https://t.me/About_Sohini",
+                url=f"https://t.me/cheynos_amare",
             ),
         ],
         [
