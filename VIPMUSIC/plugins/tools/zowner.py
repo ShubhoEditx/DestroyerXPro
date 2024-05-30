@@ -35,13 +35,13 @@ from VIPMUSIC.utils.database import get_assistant, is_active_chat
 @app.on_message(filters.command("repo"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b84e7d83019ee04e65fbe.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        photo=f"https://telegra.ph/file/85d7c1511dfa0d81de6e3.jpg",
+        caption=f"""♡ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐓𝐨 𝐆𝐞𝐭 𝐓𝐡𝐞 𝐁𝐨𝐭 𝐑𝐞𝐩𝐨 ♡""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/Rajputshivsingh65/DNS-MUSIC"
+                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ♡", url=f"https://t.me/about_shubho"
                     )
                 ]
             ]
@@ -52,13 +52,13 @@ async def help(client: Client, message: Message):
 @app.on_message(filters.command("clone"))
 async def clones(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b84e7d83019ee04e65fbe.jpg",
+        photo=f"https://telegra.ph/file/85d7c1511dfa0d81de6e3.jpg",
         caption=f"""**🙂You Are Not Sudo User So You Are Not Allowed To Clone Me.**\n**😌Click Given Below Button And Host Manually Otherwise Contact Owner Or Sudo Users For Clone.**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/Rajputshivsingh65/DNS-MUSIC"
+                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ♡", url=f"https://t.me/about_shubho"
                     )
                 ]
             ]
@@ -93,7 +93,7 @@ async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @AlienMusic_opbot`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @SohiniMusicBot`**"
         )
         return
 
