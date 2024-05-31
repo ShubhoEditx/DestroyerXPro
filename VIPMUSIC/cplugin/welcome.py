@@ -42,11 +42,11 @@ from logging import getLogger
 
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/a13a059b486d096cbc7ba.jpg",
+    "https://telegra.ph/file/e2a0c222e19c1cab36271.jpg",
+    "https://telegra.ph/file/f86bac9f1576697c69669.jpg",
+    "https://telegra.ph/file/ea3c012fdde82812a5a73.jpg",
+    "https://telegra.ph/file/57d5705756c589e14a1a3.jpg",
 ]
 # --------------------------------------------------------------------------------- #
 
@@ -243,10 +243,10 @@ async def greet_new_member(
             welcomeimg = welcomepic(
                 pic, user.first_name, member.chat.title, user.id, user.username
             )
-            button_text = "๏ ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ ๏"
-            add_button_text = "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏"
+            button_text = "👀 𝐕ɪᴇᴡ 𝐍ᴇᴡ 𝐌ᴇᴍʙᴇʀ 👀"
+            add_button_text = "♡ 𝐊ɪᴅɴᴀᴘ 𝐌ᴇ ♡"
             deep_link = f"{user.id}"
-            add_link = f"https://t.me/TG_VC_BOT?startgroup=true"
+            add_link = f"https://t.me/SohiniMusicBot?startgroup=true"
             temp.MELCOW[f"welcome-{member.chat.id}"] = await client.send_photo(
                 member.chat.id,
                 photo=welcomeimg,
