@@ -49,7 +49,6 @@ random_photo = [
     "https://telegra.ph/file/a13a059b486d096cbc7ba.jpg",
     "https://telegra.ph/file/95281ac786e89c37d3edd.jpg",
 ]
-]
 # --------------------------------------------------------------------------------- #
 
 
