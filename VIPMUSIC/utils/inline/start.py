@@ -12,11 +12,11 @@ def start_panel(_):
             ),
         ],
         [
-            InlineKeyboardButton(text="۞ 𝐇𝙴𝙻𝙿 ۞", callback_data="settings_back_helper"),
-            InlineKeyboardButton(text="☢ 𝐒𝙴𝚃 ☢", callback_data="settings_helper"),
+            InlineKeyboardButton(text="𝐇ᴇʟᴘ ♡", callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="𝐒ᴇᴛ ♡", callback_data="settings_helper"),
         ],
         [
-            InlineKeyboardButton(text="✡ 𝐆𝚁𝙾𝚄𝙿 ✡", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="𝐆ʀᴏᴜᴘ ♡", url=config.SUPPORT_CHAT),
         ],
     ]
     return buttons
@@ -26,7 +26,7 @@ def private_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="♡ 𝐀𝙳𝙳 𝐌𝙴 𝐈𝙽 𝐍𝙴𝚆 𝐆𝚁𝙾𝚄𝙿𝚂 ♡",
+                text="♡𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴏ♡",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
@@ -36,11 +36,11 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text="🕊️𝐒ʜᴜʙʜᴏ❤️",
+                text="𝐒ʜᴜʙʜᴏ ♡",
                 url=f"https://t.me/hello_deear",
             ),
             InlineKeyboardButton(
-                text="❤️𝐒ᴏʜɪɴɪ🕊️",
+                text="𝐒ᴏʜɪɴɪ ♡",
                 url=f"https://t.me/cheynos_amare",
             ),
         ],
